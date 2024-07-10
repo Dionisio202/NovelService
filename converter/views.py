@@ -68,7 +68,7 @@ class ConvertirTextoPDF(APIView):
 
             # Combinar los capítulos
             for chapter in chapters:
-              #  elements.append(Paragraph(f"Capítulo {chapter.chapter_number}", style_title))
+                elements.append(Paragraph(f"Capítulo {chapter.chapter_number}", style_title))
                 elements.append(Spacer(1, 12))
 
                 # Añadir el contenido del capítulo con el estilo de párrafo normal

@@ -34,3 +34,4 @@ videos/
 audios/
 pdfs/
 env/
+db.sqlite3
